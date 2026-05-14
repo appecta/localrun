@@ -2,7 +2,6 @@
 
 A terminal UI for managing your localhost development servers. No more remembering paths and commands — add them once, start and stop them from a single place.
 
-![LocalRun screenshot](https://github.com/user-attachments/assets/placeholder)
 
 ## Features
 
