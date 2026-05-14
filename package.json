@@ -1,0 +1,24 @@
+{
+  "name": "localrun",
+  "version": "1.0.0",
+  "description": "TUI for managing localhost development servers",
+  "type": "module",
+  "bin": {
+    "localrun": "./dist/localrun.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "node build.js",
+    "prepare": "node build.js"
+  },
+  "dependencies": {
+    "ink": "^4.4.1",
+    "ink-text-input": "^5.0.1",
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.21.5"
+  }
+}
